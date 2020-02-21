@@ -8,9 +8,9 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Prerequisites
 
-ServiceNow
-OpCon 18.3.x or greater
-ServiceNow Connector
+ServiceNow,
+OpCon 18.3.x or greater,
+ServiceNow Connector,
 OpCon Rest-API
 
 # Instructions
