@@ -18,9 +18,9 @@ OpCon Rest-API
 Implements a mechanism to update the status of the OpCon Task when the Incident Ticket is updated consisting of Business Rules and Rest Messages.
 
 If the Incident Ticket: 
-* moves from the New to In-Progress state, the OpCon Task state is changed to Under Review.
-* moves from In-Progress to resolved state, the OpCon Task state changes to Fixed or can be restarted depending on which  
-  business rule is enabled
+* moves from the New state to the In-Progress state, the OpCon Task state is changed to Under Review.
+* moves from In-Progress state to the resolved state, the OpCon Task state changes to Fixed or can be restarted depending on
+  which business rule is enabled
 * moves to cancelled state, the OpCon Task is cancelled.
 
 See documentation directory for more information on the implementation, the installation and the ServiceNow Connector.
