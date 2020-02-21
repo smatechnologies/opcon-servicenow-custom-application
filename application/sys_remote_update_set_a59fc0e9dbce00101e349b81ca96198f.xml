@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-12-30 14:03:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<application_name>OpConAPI</application_name>
+<application_scope>x_176837_opconapi</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>SMA OpConAPI</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e8b7f4dadb3500101e349b81ca96190a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>a59fc0e9dbce00101e349b81ca96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_1af25200db4e00101e349b81ca961915</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>Adds a job to an existing schedule in the daily tables</description><name>AddJobToScheduleInDaily</name><oauth2_profile/><protocol_name/><rest_endpoint>http://50.17.60.164:9001/api/ScheduleActions</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 07:58:10</sys_created_on><sys_id>1af25200db4e00101e349b81ca961915</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AddJobToScheduleInDaily</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_1af25200db4e00101e349b81ca961915</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 07:58:10</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-1136488470</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>219fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f413689750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>AddJobToScheduleInDaily</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>4eb51e80964e0010e78fca282c60da76</update_guid>
+<update_guid_history>4eb51e80964e0010e78fca282c60da76:-1136488470</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_0ab5d68cdb0e00101e349b81ca9619ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>AddJobToScheduleInDaily [ Default GET ]</qualified_name><rest_endpoint>http://50.17.60.164:9001/api/ScheduleActions</rest_endpoint><rest_message display_value="AddJobToScheduleInDaily">1af25200db4e00101e349b81ca961915</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 07:58:10</sys_created_on><sys_id>0ab5d68cdb0e00101e349b81ca9619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_0ab5d68cdb0e00101e349b81ca9619ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 07:58:10</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1237103194</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>2d9fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f413689680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>4eb51e80f64e0010626e4b8a8be87475</update_guid>
+<update_guid_history>4eb51e80f64e0010626e4b8a8be87475:1237103194</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_5ecf2680db8e00101e349b81ca961939</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message_function display_value="getDailySchedule">a0beae40db8e00101e349b81ca96190f</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:52:37</sys_created_on><sys_id>5ecf2680db8e00101e349b81ca961939</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_5ecf2680db8e00101e349b81ca961939</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:52:37</sys_updated_on><value>Token 35f3b848-1991-40ad-be7f-9631b7da5eda</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>374461365</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>319fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f419f4f060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Authorization</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>66ef22c0668e0010574a97b0d3f13687</update_guid>
+<update_guid_history>66ef22c0668e0010574a97b0d3f13687:374461365</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_f02fa280db8e00101e349b81ca9619c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>ScheduleName</name><rest_message_function display_value="getDailySchedule">a0beae40db8e00101e349b81ca96190f</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:50:42</sys_created_on><sys_id>f02fa280db8e00101e349b81ca9619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScheduleName</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_f02fa280db8e00101e349b81ca9619c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:50:42</sys_updated_on><type>string</type><value>SelfService</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-222249583</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>319fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f419d8f290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScheduleName</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>e27fe280568e0010d223e412034c3e35</update_guid>
+<update_guid_history>e27fe280568e0010d223e412034c3e35:-222249583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_ed3ab05edb3500101e349b81ca96193b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{"action":"${status}","jobs":[{"id":"${jobid}"}],"reason":"ticket accepted"}</content><function_name>postStatus</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>updateJobStatusByJobId [ postStatus ]</qualified_name><rest_endpoint>http://${address}/api/jobactions</rest_endpoint><rest_message display_value="updateJobStatusByJobId">a039b01edb3500101e349b81ca96197a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:50:43</sys_created_on><sys_id>ed3ab05edb3500101e349b81ca96193b</sys_id><sys_mod_count>4</sys_mod_count><sys_name>postStatus</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_ed3ab05edb3500101e349b81ca96193b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:22:21</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-2001033179</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>359fc0e9dbce00101e349b81ca961992</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414cadf70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>postStatus</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>284bd284204e00105ccd68a1726f0e5a</update_guid>
+<update_guid_history>284bd284204e00105ccd68a1726f0e5a:-2001033179,1f8c349e3f350010073be6c6b76d0e6e:1358693557,c9fbf45eab350010dff0b58853080234:-1195355764,c41bf85ea0350010ac0578f70deccce9:-2132247557,c79a7c1e4c350010b019b475560c588a:-1035597490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_94353ac0db8e00101e349b81ca9619e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>jobfrequency</name><rest_message_function display_value="postJobAdd">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 10:15:54</sys_created_on><sys_id>94353ac0db8e00101e349b81ca9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jobfrequency</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_94353ac0db8e00101e349b81ca9619e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 10:15:54</sys_updated_on><type>string</type><value>AllDays</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-585872972</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>359fc0e9dbce00101e349b81ca961995</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41b4a3650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>jobfrequency</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>bf35f2c0588e0010f2751f5f0d35da6e</update_guid>
+<update_guid_history>bf35f2c0588e0010f2751f5f0d35da6e:-585872972</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_3b787cdadb3500101e349b81ca961936</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>getApiVersion [ Default GET ]</qualified_name><rest_endpoint>http://${address}/api/version</rest_endpoint><rest_message display_value="getApiVersion">ae283cdadb3500101e349b81ca9619f6</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:41:30</sys_created_on><sys_id>3b787cdadb3500101e349b81ca961936</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_3b787cdadb3500101e349b81ca961936</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:19:27</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>2062746169</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>399fc0e9dbce00101e349b81ca961991</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414a03040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>f19ade44364e0010bd9ec4f57924c731</update_guid>
+<update_guid_history>f19ade44364e0010bd9ec4f57924c731:2062746169,3b787cdabe35001073516ab573b22137:1477345393</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_447f38dedb3500101e349b81ca961955</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>date</name><rest_message_function display_value="postschedule">76cd389edb3500101e349b81ca9619f2</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:12:04</sys_created_on><sys_id>447f38dedb3500101e349b81ca961955</sys_id><sys_mod_count>0</sys_mod_count><sys_name>date</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_447f38dedb3500101e349b81ca961955</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:12:04</sys_updated_on><type>string</type><value>2019-12-20</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>1408443772</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>399fc0e9dbce00101e349b81ca961994</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23dd9f990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>date</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>6b7fb41276750010dd65ad393a94469e</update_guid>
+<update_guid_history>6b7fb41276750010dd65ad393a94469e:1408443772</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1a7584a4db8200101e349b81ca9619e5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;state=6^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OpConTicketRestart&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+try { 
+	var originator = current.correlation_display;
+	if(originator == 'SMA_OPCON') {
+		gs.info("Ticket resolved so set SMA_OPCON task " + current.correlation_id + " to restart");
+		var retinfo = current.correlation_id;
+		var address = retinfo.split(",");
+		var r = new sn_ws.RESTMessageV2('x_176837_opconapi.updateJobStatusByJobId', 'postStatus');
+		r.setStringParameterNoEscape('address', address[0]);
+		r.setStringParameterNoEscape('status', 'restart');
+		r.setStringParameterNoEscape('jobid', address[1]);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+	} else {
+		gs.info("originator not SMA_OPCON");
+	}
+}
+catch(ex) {
+ var message = ex.message;
+}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-27 10:46:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1a7584a4db8200101e349b81ca9619e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;OpConTicketRestart&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OpConAPI" source="x_176837_opconapi"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OpConAPI"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1a7584a4db8200101e349b81ca9619e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-27 10:51:08&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1a7584a4db8200101e349b81ca9619e5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>81790990</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>399fc0e9dbce00101e349b81ca961997</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f46fb40d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table>incident</table>
+<target_name>OpConTicketRestart</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>21e684e43d820010b2fc6664c3a11c7b</update_guid>
+<update_guid_history>21e684e43d820010b2fc6664c3a11c7b:81790990,2476c8a4a28200101651ddcca44db317:1977314318,49e5c8a459820010a14a0742b3b6340f:1510526787</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_093fb412db7500101e349b81ca961981</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>name</name><rest_message_function display_value="postschedule">76cd389edb3500101e349b81ca9619f2</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:11:40</sys_created_on><sys_id>093fb412db7500101e349b81ca961981</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_093fb412db7500101e349b81ca961981</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:11:40</sys_updated_on><type>string</type><value>DEMO_SCHED001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-622416529</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>3d9fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23dd41860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>name</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>716f70de773500105be8f8a659609334</update_guid>
+<update_guid_history>716f70de773500105be8f8a659609334:-622416529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_92c4fafbdb3500101e349b81ca961971</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-25 15:35:25</sys_created_on><sys_id>92c4fafbdb3500101e349b81ca961971</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTResponse.getBody</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_scope_privilege_92c4fafbdb3500101e349b81ca961971</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-25 15:35:25</sys_updated_on><target_name>ScriptableRESTResponse.getBody</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1857957343</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>3d9fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f3db2cb3a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTResponse.getBody</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>dac4fafbb4350010b103ea2238589b71</update_guid>
+<update_guid_history>dac4fafbb4350010b103ea2238589b71:-1857957343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_ae283cdadb3500101e349b81ca9619f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>returns the version of the OpCon API</description><name>getApiVersion</name><oauth2_profile/><protocol_name/><rest_endpoint>http://50.17.60.164:9001/api/version</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:41:30</sys_created_on><sys_id>ae283cdadb3500101e349b81ca9619f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>getApiVersion</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_ae283cdadb3500101e349b81ca9619f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:41:30</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1830804165</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>699fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23c1a2ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>getApiVersion</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>3b787cda2735001004d29c5b6463e538</update_guid>
+<update_guid_history>3b787cda2735001004d29c5b6463e538:1830804165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_191d3c9edb3500101e349b81ca961932</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>builds a schedule in the daily tables using date and schedule name arguments</description><name>buildSchedule</name><oauth2_profile/><protocol_name/><rest_endpoint>http://50.17.60.164:9001/api/schedulebuilds</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:03:52</sys_created_on><sys_id>191d3c9edb3500101e349b81ca961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>buildSchedule</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_191d3c9edb3500101e349b81ca961932</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:03:52</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1386527282</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>6d9fc0e9dbce00101e349b81ca96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23d61e240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>buildSchedule</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>239db4def0350010c17190daad002a94</update_guid>
+<update_guid_history>239db4def0350010c17190daad002a94:1386527282</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_a0beae40db8e00101e349b81ca96190f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>getDailySchedule</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>getDailyScheduleByNameAndDate [ getDailySchedule ]</qualified_name><rest_endpoint>http://${address}/api/dailyschedules?name=${ScheduleName}&amp;dates=${ScheduleDate}</rest_endpoint><rest_message display_value="getDailyScheduleByNameAndDate">853eae40db8e00101e349b81ca961909</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:47:32</sys_created_on><sys_id>a0beae40db8e00101e349b81ca96190f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>getDailySchedule</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_a0beae40db8e00101e349b81ca96190f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:53:44</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1222309845</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>719fc0e9dbce00101e349b81ca961992</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41a055c60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>getDailySchedule</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>0b2032c0798e001091cf6b6061bd54f0</update_guid>
+<update_guid_history>0b2032c0798e001091cf6b6061bd54f0:1222309845,79bfae400c8e001047180c21b69dd035:-1400057368,c9feaa84994e001039311ff9c7c5085e:1134035619,94cea280ad8e0010efb4427d3dab3c50:-311922034</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_80c03e80db8e00101e349b81ca961900</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>scheduleid</name><rest_message_function display_value="postJobAdd">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:56:35</sys_created_on><sys_id>80c03e80db8e00101e349b81ca961900</sys_id><sys_mod_count>4</sys_mod_count><sys_name>scheduleid</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_80c03e80db8e00101e349b81ca961900</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 11:20:20</sys_updated_on><type>string</type><value>20191226|125|1</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>814073984</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>719fc0e9dbce00101e349b81ca961995</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41efa0bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>scheduleid</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>27f3430023ce00106aac94b6933f87b1</update_guid>
+<update_guid_history>27f3430023ce00106aac94b6933f87b1:814073984,315efac8688e00108a8c8a5931b144ef:-600081030,2f3bb684508e001098e672c05346d080:-1798937681,7d0bfa08428e00109d1a93058c41fe90:-600081030,bcd03ac0a48e0010e02564ea0749c275:1574599067</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_28a9f01edb3500101e349b81ca961927</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>updateJobStatusByJobId [ Default GET ]</qualified_name><rest_endpoint>http://50.17.60.164:9001/api/jobactions</rest_endpoint><rest_message display_value="updateJobStatusByJobId">a039b01edb3500101e349b81ca96197a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:46:28</sys_created_on><sys_id>28a9f01edb3500101e349b81ca961927</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_28a9f01edb3500101e349b81ca961927</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:46:28</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-44979125</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>759fc0e9dbce00101e349b81ca961991</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23c630d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>64a9f01ef93500100736b010a10a6e28</update_guid>
+<update_guid_history>64a9f01ef93500100736b010a10a6e28:-44979125</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_3e2b3c5edb3500101e349b81ca9619fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>status</name><rest_message_function display_value="postStatus">ed3ab05edb3500101e349b81ca96193b</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:56:07</sys_created_on><sys_id>3e2b3c5edb3500101e349b81ca9619fe</sys_id><sys_mod_count>1</sys_mod_count><sys_name>status</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_3e2b3c5edb3500101e349b81ca9619fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:58:41</sys_updated_on><type>string</type><value>markFinishedOk</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>1959997556</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>759fc0e9dbce00101e349b81ca961994</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23d15f300000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>status</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>a76cb05e863500103364adab3a96189b</update_guid>
+<update_guid_history>a76cb05e863500103364adab3a96189b:1959997556,cedbb85eb03500108153025d389f6704:-308818702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_0fd82b14db4200101e349b81ca961978</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;incident_state=8^EQ&lt;item endquery="false" field="incident_state" goto="false" newquery="false" operator="=" or="false" value="8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OpConTicketCancelled&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+try 
+{
+	var originator = current.correlation_display;
+	if(originator == 'SMA_OPCON') {
+		gs.info("Ticket canceled so set SMA_OPCON task " + current.correlation_id + " to cancel");
+		var retinfo = current.correlation_id;
+		var address = retinfo.split(",");
+		var r = new sn_ws.RESTMessageV2('x_176837_opconapi.updateJobStatusByJobId', 'postStatus');
+		r.setStringParameterNoEscape('address', address[0]);
+		r.setStringParameterNoEscape('status', 'cancel');
+		r.setStringParameterNoEscape('jobid', address[1]);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+	} else {
+		gs.info("originator not SMA_OPCON");
+	}
+}
+catch(ex) {
+ var message = ex.message;
+}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-27 08:41:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0fd82b14db4200101e349b81ca961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;OpConTicketCancelled&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OpConAPI" source="x_176837_opconapi"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OpConAPI"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_0fd82b14db4200101e349b81ca961978&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-27 10:50:11&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0fd82b14db4200101e349b81ca961978"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>915857929</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>759fc0e9dbce00101e349b81ca961997</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f46fa61860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table>incident</table>
+<target_name>OpConTicketCancelled</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>efa640e4f082001097b8eecd4482ce70</update_guid>
+<update_guid_history>efa640e4f082001097b8eecd4482ce70:915857929,a4e9a3547342001006e91696ca4100f2:214746389,6049e7d06e4200105097e421b9bd9c37:1848678517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_dccab05edb3500101e349b81ca961942</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="postStatus">ed3ab05edb3500101e349b81ca96193b</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:52:42</sys_created_on><sys_id>dccab05edb3500101e349b81ca961942</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_dccab05edb3500101e349b81ca961942</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:52:42</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>880175460</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>799fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23cbe67d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>041bf85e823500101ab5c3324a093fe7</update_guid>
+<update_guid_history>041bf85e823500101ab5c3324a093fe7:880175460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_79a623d0db4200101e349b81ca961971</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 08:30:15</sys_created_on><sys_id>79a623d0db4200101e349b81ca961971</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedGlideElement</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_scope_privilege_79a623d0db4200101e349b81ca961971</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 08:30:15</sys_updated_on><target_name>ScopedGlideElement</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1060596993</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>799fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f467a45290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScopedGlideElement</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>bda623d0b942001012f824b648ff1472</update_guid>
+<update_guid_history>bda623d0b942001012f824b648ff1472:1060596993</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_481e30dedb3500101e349b81ca9619f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="">76cd389edb3500101e349b81ca9619f2</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:10:31</sys_created_on><sys_id>481e30dedb3500101e349b81ca9619f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_481e30dedb3500101e349b81ca9619f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:10:31</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-1616833069</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>7d9fc0e9dbce00101e349b81ca961992</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23dc35d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>452fb4de51350010b4a1ed9c3e5fcb99</update_guid>
+<update_guid_history>452fb4de51350010b4a1ed9c3e5fcb99:-1616833069</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_eb7f2680db8e00101e349b81ca96194b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>ScheduleDate</name><rest_message_function display_value="getDailySchedule">a0beae40db8e00101e349b81ca96190f</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:51:02</sys_created_on><sys_id>eb7f2680db8e00101e349b81ca96194b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScheduleDate</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_eb7f2680db8e00101e349b81ca96194b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:51:02</sys_updated_on><type>string</type><value>2019-12-25</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1787101278</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>7d9fc0e9dbce00101e349b81ca961995</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f419ddeb70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScheduleDate</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>6b8fe680bd8e00103cc8292fcc84bcf7</update_guid>
+<update_guid_history>6b8fe680bd8e00103cc8292fcc84bcf7:-1787101278</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_279db4dedb3500101e349b81ca961992</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>buildSchedule [ Default GET ]</qualified_name><rest_endpoint>http://50.17.60.164:9001/api/schedulebuilds</rest_endpoint><rest_message display_value="buildSchedule">191d3c9edb3500101e349b81ca961932</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:03:52</sys_created_on><sys_id>279db4dedb3500101e349b81ca961992</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_279db4dedb3500101e349b81ca961992</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:03:52</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-563027456</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>a19fc0e9dbce00101e349b81ca961991</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23d61e170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>639db4de0135001094c4a7f87cc6cb93</update_guid>
+<update_guid_history>639db4de0135001094c4a7f87cc6cb93:-563027456</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_a039b01edb3500101e349b81ca96197a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>updates the status of a job in the OpCon Daily tables using the jobid </description><name>updateJobStatusByJobId</name><oauth2_profile/><protocol_name/><rest_endpoint>http://50.17.60.164:9001/api/jobactions</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:46:28</sys_created_on><sys_id>a039b01edb3500101e349b81ca96197a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>updateJobStatusByJobId</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_a039b01edb3500101e349b81ca96197a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:46:28</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1075072564</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>a59fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23c630e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>updateJobStatusByJobId</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>24a9f01e8e3500100f743600b697ca29</update_guid>
+<update_guid_history>24a9f01e8e3500100f743600b697ca29:1075072564</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_60b774dadb3500101e349b81ca961993</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu/><name>OpConAPI</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_176837_opconapi</scope><scoped_administration>false</scoped_administration><short_description>SMA OpCon Application library to integerate Incidents with OpCon</short_description><source>x_176837_opconapi</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:38:00</sys_created_on><sys_id>60b774dadb3500101e349b81ca961993</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-30 13:52:14</sys_updated_on><template/><trackable>true</trackable><user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-233153454</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>a99fc0e9dbce00101e349b81ca96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f57141f7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>OpConAPI</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>2b1d882994ce00109f6ffc91be2ea9d0</update_guid>
+<update_guid_history>2b1d882994ce00109f6ffc91be2ea9d0:-233153454,b3ac882926ce001010761c935082fb5d:-1134341079,34b7f4da763500108af7ddcd78339c0c:858580609</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_320f6a84db4e00101e349b81ca96199e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>address</name><rest_message_function display_value="getDailySchedule">a0beae40db8e00101e349b81ca96190f</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:49:04</sys_created_on><sys_id>320f6a84db4e00101e349b81ca96199e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>address</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_320f6a84db4e00101e349b81ca96199e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:51:28</sys_updated_on><type>string</type><value>50.17.60.164:9001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-180767016</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b19fc0e9dbce00101e349b81ca961994</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f419e42dc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>address</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>b9af2680ea8e0010fc1f3dc81e7e5c36</update_guid>
+<update_guid_history>b9af2680ea8e0010fc1f3dc81e7e5c36:-180767016,a61fe280448e001008834f30eadebe32:454721360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_99c4bafbdb3500101e349b81ca96196a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-25 15:35:21</sys_created_on><sys_id>99c4bafbdb3500101e349b81ca96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.execute</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_scope_privilege_99c4bafbdb3500101e349b81ca96196a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-25 15:35:21</sys_updated_on><target_name>ScriptableRESTMessageClient.execute</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-57178429</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b19fc0e9dbce00101e349b81ca961997</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f3db2bb0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.execute</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>d1c4bafb0b350010d7281615272d816b</update_guid>
+<update_guid_history>d1c4bafb0b350010d7281615272d816b:-57178429</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_bd67d6ccdb0e00101e349b81ca96194c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:12:17</sys_created_on><sys_id>bd67d6ccdb0e00101e349b81ca96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_bd67d6ccdb0e00101e349b81ca96194c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:12:17</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>1442968095</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b59fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414375180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>70f852c0374e00101b2e410183e05f1e</update_guid>
+<update_guid_history>70f852c0374e00101b2e410183e05f1e:1442968095</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_59c4bafbdb3500101e349b81ca961968</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-25 15:35:21</sys_created_on><sys_id>59c4bafbdb3500101e349b81ca961968</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setStringParameterNoEscape</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_scope_privilege_59c4bafbdb3500101e349b81ca961968</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-25 15:35:21</sys_updated_on><target_name>ScriptableRESTMessageClient.setStringParameterNoEscape</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-383081791</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b59fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f3db2baf70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setStringParameterNoEscape</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>9dc4bafb17350010f5bcb71a3a274969</update_guid>
+<update_guid_history>9dc4bafb17350010f5bcb71a3a274969:-383081791</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_34aa7c1edb3500101e349b81ca961973</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message_function display_value="postStatus">ed3ab05edb3500101e349b81ca96193b</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:52:42</sys_created_on><sys_id>34aa7c1edb3500101e349b81ca961973</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_34aa7c1edb3500101e349b81ca961973</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:52:42</sys_updated_on><value>Token 35f3b848-1991-40ad-be7f-9631b7da5eda</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-549633644</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b99fc0e9dbce00101e349b81ca961992</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23cbe6620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Authorization</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>0c1bf85e27350010b699b28a65920de5</update_guid>
+<update_guid_history>0c1bf85e27350010b699b28a65920de5:-549633644</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_cd7c389edb3500101e349b81ca9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>jobid</name><rest_message_function display_value="postStatus">ed3ab05edb3500101e349b81ca96193b</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 14:58:58</sys_created_on><sys_id>cd7c389edb3500101e349b81ca9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jobid</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_cd7c389edb3500101e349b81ca9619ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 14:58:58</sys_updated_on><type>string</type><value>20191220|123|1|GENP001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1717071380</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>b99fc0e9dbce00101e349b81ca961995</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23d1a05f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>jobid</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>ef7cf49e883500100155862c246e9056</update_guid>
+<update_guid_history>ef7cf49e883500100155862c246e9056:-1717071380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_76cd389edb3500101e349b81ca9619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{"schedules":[{"id":null,"name":"${name}"}],"id":null,"expiryTime":null,"dates":["${date}"],"logFile":null,"overwrite":true,"hold":true}</content><function_name>postschedule</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>buildSchedule [ postschedule ]</qualified_name><rest_endpoint>http://${address}/api/schedulebuilds</rest_endpoint><rest_message display_value="buildSchedule">191d3c9edb3500101e349b81ca961932</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:10:31</sys_created_on><sys_id>76cd389edb3500101e349b81ca9619f2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>postschedule</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_76cd389edb3500101e349b81ca9619f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:21:24</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1862723654</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>bd9fc0e9dbce00101e349b81ca961991</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414bcbe10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>postschedule</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>560b1284594e0010a2775f3eee16ec45</update_guid>
+<update_guid_history>560b1284594e0010a2775f3eee16ec45:1862723654,bbaff812a9750010a1203daa92c67ed9:170237292,4d2fb4de2b350010ba1071a243046e9a:209417832</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_7eea5a44db4e00101e349b81ca96199e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>address</name><rest_message_function display_value="postschedule">76cd389edb3500101e349b81ca9619f2</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:21:03</sys_created_on><sys_id>7eea5a44db4e00101e349b81ca96199e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>address</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_7eea5a44db4e00101e349b81ca96199e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:21:03</sys_updated_on><type>string</type><value>50.17.60.164:9001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>1230414623</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>bd9fc0e9dbce00101e349b81ca961994</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414b7cb10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>address</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>9dfa1684994e00107adc19bd80e98848</update_guid>
+<update_guid_history>9dfa1684994e00107adc19bd80e98848:1230414623</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_c55ce2b7db3500101e349b81ca96190b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;state=2^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Business rule OpCon ticket accepted is run&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;OpConTicketAccepted&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+try { 
+	var originator = current.correlation_display;
+	if(originator == 'SMA_OPCON') {
+		gs.info("Ticket accepted so set SMA_OPCON task " + current.correlation_id + " to markUnderReview");
+		var retinfo = current.correlation_id;
+		var address = retinfo.split(",");
+		var r = new sn_ws.RESTMessageV2('x_176837_opconapi.updateJobStatusByJobId', 'postStatus');
+		r.setStringParameterNoEscape('address', address[0]);
+		r.setStringParameterNoEscape('status', 'markUnderReview');
+		r.setStringParameterNoEscape('jobid', address[1]);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+	} else {
+		gs.info("originator not SMA_OPCON");
+	}
+
+}
+catch(ex) {
+ var message = ex.message;
+}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-25 15:01:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c55ce2b7db3500101e349b81ca96190b&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;OpConTicketAccepted&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OpConAPI" source="x_176837_opconapi"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OpConAPI"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c55ce2b7db3500101e349b81ca96190b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-27 08:35:52&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c55ce2b7db3500101e349b81ca96190b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-898444240</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>bd9fc0e9dbce00101e349b81ca961997</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f467f69e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table>incident</table>
+<target_name>OpConTicketAccepted</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>04f7afd0e4420010e52241f8eba436d1</update_guid>
+<update_guid_history>04f7afd0e4420010e52241f8eba436d1:-898444240,9c2767d0dc420010fc65fa2a6dba1cd4:-1031238339,ce662f5c440200106d9fa84d9bf0a299:-1676884755,721e1fd810020010fe999d69dc0ba7df:-1258372926,bdfa93180c020010f99ec5381c94bb33:-1678846327,77d41318a40200102da1bffe07c44643:-84388769,e5e35b541d020010cbbb519845fb8f24:481425141,6061d31463020010576f50668bc35137:182215598,63180cd410424010d6a6f57683f1cab7:1902224417,7f05405c73ce0010b6703c41f935a444:-1244598130,bef75fc813ce00103010f8569f1d26af:879387536,986313485ace00100dc8073a66f7d757:-1403759999,e113530003ce001015307bb47fb33fba:1091843653,ea84f2fbfe35001057d42e6954d0a6b1:-299764944,c4427e3ba73500109dc83e2d02e4f335:-129720315,62fc6ab7b0350010b4dc02679f7ec0fb:-377481463</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_853eae40db8e00101e349b81ca961909</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>Get daily schedule information using schedule name and date </description><name>getDailyScheduleByNameAndDate</name><oauth2_profile/><protocol_name/><rest_endpoint>http://bvhtest02:9010/api/dailyschedules?name=$ScheduleName&amp;dates=$ScheduleDate</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:46:58</sys_created_on><sys_id>853eae40db8e00101e349b81ca961909</sys_id><sys_mod_count>1</sys_mod_count><sys_name>getDailyScheduleByNameAndDate</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_853eae40db8e00101e349b81ca961909</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:53:29</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1230868401</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>e19fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41a01bee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>getDailyScheduleByNameAndDate</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>d310fa80688e001017b7abb6a811c4fa</update_guid>
+<update_guid_history>d310fa80688e001017b7abb6a811c4fa:1230868401,44aea280fc8e0010ef8c374bb699f54d:579057204</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_1967d2c0db4e00101e349b81ca9619db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{"scheduleActionItems":[{"id":"${scheduleid}","result":null,"jobs":[{"id":"${jobname}","frequency":"${jobfrequency}","result":null,"message":null,"instanceProperties":[]}],"status":null}],"id":null,"action":"addJobs","result":null,"expires":null,"states":null,"reason":null,"message":null}</content><function_name>postJobAdd</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>AddJobToScheduleInDaily [ postJobAdd ]</qualified_name><rest_endpoint>http://${address}/api/ScheduleActions</rest_endpoint><rest_message display_value="AddJobToScheduleInDaily">1af25200db4e00101e349b81ca961915</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:12:17</sys_created_on><sys_id>1967d2c0db4e00101e349b81ca9619db</sys_id><sys_mod_count>2</sys_mod_count><sys_name>postJobAdd</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_1967d2c0db4e00101e349b81ca9619db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 10:12:32</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1616078366</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>ed9fc0e9dbce00101e349b81ca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41b18dcf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>postJobAdd</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>aa7436c0f78e001048ac0c06e33642f1</update_guid>
+<update_guid_history>aa7436c0f78e001048ac0c06e33642f1:1616078366,449b5a846a4e0010abe5ddc22f25a39b:-2105963110,7cf89e04944e001020af75d317d71815:1820531380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_5f58d2c0db4e00101e349b81ca9619aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message_function display_value="">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:12:17</sys_created_on><sys_id>5f58d2c0db4e00101e349b81ca9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_5f58d2c0db4e00101e349b81ca9619aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:12:17</sys_updated_on><value>Token 35f3b848-1991-40ad-be7f-9631b7da5eda</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-412629191</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f19fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414375350000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Authorization</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>74f89e042a4e0010e44b1d8256183514</update_guid>
+<update_guid_history>74f89e042a4e0010e44b1d8256183514:-412629191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_fa7bd684db4e00101e349b81ca9619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>address</name><rest_message_function display_value="postJobAdd">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:23:30</sys_created_on><sys_id>fa7bd684db4e00101e349b81ca9619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>address</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_fa7bd684db4e00101e349b81ca9619f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:23:30</sys_updated_on><type>string</type><value>50.17.60.164:9001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-21929664</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f19fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414db92a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>address</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>898b9284614e0010ea8fffdded46c85d</update_guid>
+<update_guid_history>898b9284614e0010ea8fffdded46c85d:-21929664</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_1bcdb4dedb3500101e349b81ca961995</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message_function display_value="">76cd389edb3500101e349b81ca9619f2</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 15:10:31</sys_created_on><sys_id>1bcdb4dedb3500101e349b81ca961995</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_headers_1bcdb4dedb3500101e349b81ca961995</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 15:10:31</sys_updated_on><value>Token 35f3b848-1991-40ad-be7f-9631b7da5eda</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>2036593413</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f59fc0e9dbce00101e349b81ca961992</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f23dc35c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Authorization</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>8d2fb4dea3350010686b13af0e346c97</update_guid>
+<update_guid_history>8d2fb4dea3350010686b13af0e346c97:2036593413</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_ca05f2c0db8e00101e349b81ca96196a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>jobname</name><rest_message_function display_value="postJobAdd">1967d2c0db4e00101e349b81ca9619db</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 10:15:11</sys_created_on><sys_id>ca05f2c0db8e00101e349b81ca96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jobname</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_ca05f2c0db8e00101e349b81ca96196a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 10:15:11</sys_updated_on><type>string</type><value>JOB001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-766290444</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f59fc0e9dbce00101e349b81ca961995</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41b3fb6b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>jobname</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>91153e80808e0010c522f1065309a4bc</update_guid>
+<update_guid_history>91153e80808e0010c522f1065309a4bc:-766290444</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_48aea280db8e00101e349b81ca96194b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>getDailyScheduleByNameAndDate [ Default GET ]</qualified_name><rest_endpoint>http://50.17.60.164:9001/api/dailyschedules?name=$ScheduleName&amp;dates=$ScheduleDate</rest_endpoint><rest_message display_value="getDailyScheduleByNameAndDate">853eae40db8e00101e349b81ca961909</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 09:46:59</sys_created_on><sys_id>48aea280db8e00101e349b81ca96194b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_48aea280db8e00101e349b81ca96194b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 09:54:17</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1599296511</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f99fc0e9dbce00101e349b81ca961991</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f41a0d7550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>0f4036c0928e0010f65ae97a7804cfcd</update_guid>
+<update_guid_history>0f4036c0928e0010f65ae97a7804cfcd:1599296511,84aea280628e00107b6e2963b16bac4c:1046918680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_5e2bde04db4e00101e349b81ca9619aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>address</name><rest_message_function display_value="postStatus">ed3ab05edb3500101e349b81ca96193b</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:22:07</sys_created_on><sys_id>5e2bde04db4e00101e349b81ca9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>address</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_5e2bde04db4e00101e349b81ca9619aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:22:07</sys_updated_on><type>string</type><value>50.17.60.164:9001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1928187977</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f99fc0e9dbce00101e349b81ca961994</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f414c74040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>address</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>b03b1284704e0010b668107a51705e49</update_guid>
+<update_guid_history>b03b1284704e0010b668107a51705e49:-1928187977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_80182314db4200101e349b81ca961922</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;state=6^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OpConTicketResolved&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+try 
+{
+	var originator = current.correlation_display;
+	if(originator == 'SMA_OPCON') {
+		gs.info("Ticket resolved so set SMA_OPCON task " + current.correlation_id + " to markFixed");
+		var retinfo = current.correlation_id;
+		var address = retinfo.split(",");
+		var r = new sn_ws.RESTMessageV2('x_176837_opconapi.updateJobStatusByJobId', 'postStatus');
+		r.setStringParameterNoEscape('address', address[0]);
+		r.setStringParameterNoEscape('status', 'markFixed');
+		r.setStringParameterNoEscape('jobid', address[1]);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+	} else {
+		gs.info("originator not SMA_OPCON");
+	}
+}
+catch(ex) {
+ var message = ex.message;
+}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-27 08:39:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;80182314db4200101e349b81ca961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;OpConTicketResolved&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OpConAPI" source="x_176837_opconapi"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OpConAPI"&gt;60b774dadb3500101e349b81ca961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_80182314db4200101e349b81ca961922&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-27 10:50:44&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=80182314db4200101e349b81ca961922"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1084204874</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>f99fc0e9dbce00101e349b81ca961997</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f46fae37c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table>incident</table>
+<target_name>OpConTicketResolved</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>ffc680e4fb820010f4ab7346338eff9e</update_guid>
+<update_guid_history>ffc680e4fb820010f4ab7346338eff9e:-1084204874,d4f9235427420010158be77e1a8b267d:-1253711084,34592b1408420010d89f54d675cfcb99:380221044,88d8e7141e4200109e7bb1d378d7069b:1945155893</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_136a9e44db4e00101e349b81ca961978</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>address</name><rest_message_function display_value="Default GET">3b787cdadb3500101e349b81ca961936</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 08:19:06</sys_created_on><sys_id>136a9e44db4e00101e349b81ca961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>address</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_rest_message_fn_parameters_136a9e44db4e00101e349b81ca961978</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 08:19:06</sys_updated_on><type>string</type><value>50.17.60.164:9001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-927762446</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>fd9fc0e9dbce00101e349b81ca961993</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f4149b2040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>address</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>708ade44d44e001059d77108669e8617</update_guid>
+<update_guid_history>708ade44d44e001059d77108669e8617:-927762446</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OpConAPI">60b774dadb3500101e349b81ca961993</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_96c4fafbdb3500101e349b81ca961972</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-25 15:35:25</sys_created_on><sys_id>96c4fafbdb3500101e349b81ca961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTResponse.getStatusCode</sys_name><sys_package display_value="OpConAPI" source="x_176837_opconapi">60b774dadb3500101e349b81ca961993</sys_package><sys_policy/><sys_scope display_value="OpConAPI">60b774dadb3500101e349b81ca961993</sys_scope><sys_update_name>sys_scope_privilege_96c4fafbdb3500101e349b81ca961972</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-25 15:35:25</sys_updated_on><target_name>ScriptableRESTResponse.getStatusCode</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>890471617</payload_hash>
+<remote_update_set display_value="SMA OpConAPI">a59fc0e9dbce00101e349b81ca96198f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-30 14:03:01</sys_created_on>
+<sys_id>fd9fc0e9dbce00101e349b81ca961996</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f3db2cb460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-30 14:03:01</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTResponse.getStatusCode</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>dec4fafb3d350010f575d7e48b403472</update_guid>
+<update_guid_history>dec4fafb3d350010f575d7e48b403472:890471617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
