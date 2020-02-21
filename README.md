@@ -1,5 +1,5 @@
 # Project Name
-Project description
+opcon-servicenow-custom-application
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -8,9 +8,22 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Prerequisites
 
+ServiceNow
+OpCon 18.3.x or greater
+ServiceNow Connector
+OpCon Rest-API
 
 # Instructions
 
+Implements a mechanism to update the status of the OpCon Task when the Incident Ticket is updated consisting of Business Rules and Rest Messages.
+
+If the Incident Ticket: 
+* moves from the New to In-Progress state, the OpCon Task state is changed to Under Review.
+* moves from In-Progress to resolved state, the OpCon Task state changes to Fixed or can be restarted depending on which  
+  business rule is enabled
+* moves to cancelled state, the OpCon Task is cancelled.
+
+See Wiki for more documentation on the implemetation and how to import the application into ServiceNow
 
 # License
 Copyright 2019 SMA Technologies
