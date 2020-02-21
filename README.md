@@ -23,7 +23,7 @@ If the Incident Ticket:
   business rule is enabled
 * moves to cancelled state, the OpCon Task is cancelled.
 
-See Wiki for more documentation on the implemetation and how to import the application into ServiceNow
+See documentation directory for more information on the implementation, the installation and the ServiceNow Connector.
 
 # License
 Copyright 2019 SMA Technologies
